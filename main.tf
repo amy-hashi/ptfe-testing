@@ -4,12 +4,12 @@ provider "aws" {
   region     = "us-east-1"
 }
 
-#resource "aws_instance" "amy-testing" {
-#  ami           = "ami-1853ac65"
-#  instance_type = "t2.micro"
-#  tags {
-#    "Owner" = "Amy Brown"
-#    "TTL" = "30"
+resource "aws_instance" "amy-testing" {
+  ami           = "ami-1853ac65"
+  instance_type = "t2.micro"
+  tags {
+    "Owner" = "Amy Brown"
+    "TTL" = "30"
 #    "Tag2" = "tag 2"
-#  }
-#}
+  }
+}
