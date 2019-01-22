@@ -8,8 +8,8 @@ provider "aws" {
 #  ami           = "ami-1853ac65"
 #  instance_type = "t2.micro"
 #  tags {
-#    "Name" = "amy test"
-#    "Tag1" = "tag 1"
+#    "Owner" = "Amy Brown"
+#    "TTL" = "30"
 #    "Tag2" = "tag 2"
 #  }
 #}
