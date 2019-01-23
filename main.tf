@@ -7,7 +7,7 @@ provider "aws" {
 resource "aws_instance" "amy-testing" {
   ami           = "ami-be7753db"
   instance_type = "t2.micro"
-  count = 2
+  count = 0
   tags {
     "Owner" = "Amy Brown"
 #    "TTL" = "30"
