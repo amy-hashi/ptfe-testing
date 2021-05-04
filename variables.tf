@@ -1,6 +1,6 @@
 variable "access_key" {}
 variable "secret_key" {}
-variable "count" {
+variable "ec2count" {
   default = "1"
 }
 variable "instance-type" {
