@@ -7,7 +7,7 @@ provider "aws" {
 resource "aws_instance" "amy-testing" {
   ami           = "ami-be7753db"
   instance_type = var.instance-type
-  count = var.count
+  count = var.ec2count
   tags {
     Owner = "Amy Brown"
   }
