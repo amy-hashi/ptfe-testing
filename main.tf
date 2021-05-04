@@ -9,6 +9,6 @@ resource "aws_instance" "amy-testing" {
   instance_type = var.instance-type
   count = var.count
   tags {
-    "Owner" = "Amy Brown"
+    Owner = "Amy Brown"
   }
 }
