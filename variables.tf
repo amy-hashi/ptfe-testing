@@ -1,6 +1,6 @@
-variable "access_key" {}
-variable "secret_key" {}
-variable "token" {}
+#variable "access_key" {}
+#variable "secret_key" {}
+#variable "token" {}
 variable "ec2count" {
   default = "1"
 }
